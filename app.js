@@ -42,7 +42,7 @@ function createPopup(currentFeature) {
   locationData.features.forEach((location, i) => {
     const prop = location.properties;
 
-    const listing = listings.appendChild(document.createElement('div'));*/
+    const listing = listings.appendChild(document.createElement('div'));
     /* Assign a unique `id` to the listing. */
     listing.id = 'listing-' + prop.id;
 
