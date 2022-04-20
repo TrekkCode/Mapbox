@@ -510,4 +510,4 @@ function transformRequest(url) {
   return {
     url: isMapboxRequest ? url.replace('?', '?pluginName=finder&') : url,
   };
-}
+});
