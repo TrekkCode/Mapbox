@@ -91,6 +91,20 @@
     display: block;
 
   }
+#modal {
+    position: absolute;
+    font-size: 15px;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+    background: #ffffff;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
 
 
   
