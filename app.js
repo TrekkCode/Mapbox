@@ -34,32 +34,32 @@ function createPopup(currentFeature) {
     .setHTML('<h3>' + currentFeature.properties[config.popupInfo[0]] + '</h3>' + '<a href="' + currentFeature.properties[config.popupInfo1[0]] + '" target="_blank" rel="noopener noreferrer">Website Link</a>')
     .addTo(map);
 }
-
-function buildLocationList(locationData) {
-  /* Add a new listing section to the sidebar. */
+/*
+/*function buildLocationList(locationData) {
+  /* Add a new listing section to the sidebar. *//*
   const listings = document.getElementById('listings');
   listings.innerHTML = '';
   locationData.features.forEach((location, i) => {
     const prop = location.properties;
 
-    const listing = listings.appendChild(document.createElement('div'));
-    /* Assign a unique `id` to the listing. */
-    listing.id = 'listing-' + prop.id;
+    const listing = listings.appendChild(document.createElement('div'));*/
+    /* Assign a unique `id` to the listing. *//*
+    listing.id = 'listing-' + prop.id;*/
 
-    /* Assign the `item` class to each listing for styling. */
+    /* Assign the `item` class to each listing for styling. *//*
     listing.className = 'item';
-
-    /* Add the link to the individual listing created above. */
+*/
+    /* Add the link to the individual listing created above. *//*
     const link = listing.appendChild(document.createElement('button'));
     link.className = 'title';
     link.id = 'link-' + prop.id;
     link.innerHTML =
       '<p style="line-height: 1.25">' + prop[columnHeaders[0]] + '</p>';
-
-    /* Add details to the individual listing. */
+*/
+    /* Add details to the individual listing. *//*
     const details = listing.appendChild(document.createElement('div'));
-    details.className = 'content';
-
+    details.className = 'content';*/
+/*
     for (let i = 1; i < columnHeaders.length; i++) {
       const div = document.createElement('div');
       div.innerText += prop[columnHeaders[i]];
@@ -82,8 +82,8 @@ function buildLocationList(locationData) {
       const divCount = divList.length;
       for (i = 0; i < divCount; i++) {
         divList[i].style.maxHeight = null;
-      }
-
+      }*/
+/*
       for (let i = 0; i < geojsonData.features.length; i++) {
         this.parentNode.classList.remove('active');
         this.classList.toggle('active');
@@ -97,12 +97,12 @@ function buildLocationList(locationData) {
     });
   });
 }
-
+*/
 // Build dropdown list function
 // title - the name or 'category' of the selection e.g. 'Languages: '
 // defaultValue - the default option for the dropdown list
 // listItems - the array of filter items
-
+/*
 function buildDropDownList(title, listItems) {
   const filtersDiv = document.getElementById('filters');
   const mainDiv = document.createElement('div');
@@ -136,7 +136,7 @@ function buildDropDownList(title, listItems) {
   }
   filtersDiv.appendChild(mainDiv);
 }
-
+*/
 // Build checkbox function
 // title - the name or 'category' of the selection e.g. 'Languages: '
 // listItems - the array of filter items
