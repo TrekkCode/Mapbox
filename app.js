@@ -102,7 +102,7 @@ function buildLocationList(locationData) {
 // title - the name or 'category' of the selection e.g. 'Languages: '
 // defaultValue - the default option for the dropdown list
 // listItems - the array of filter items
-/*
+
 function buildDropDownList(title, listItems) {
   const filtersDiv = document.getElementById('filters');
   const mainDiv = document.createElement('div');
@@ -136,7 +136,7 @@ function buildDropDownList(title, listItems) {
   }
   filtersDiv.appendChild(mainDiv);
 }
-*/
+
 // Build checkbox function
 // title - the name or 'category' of the selection e.g. 'Languages: '
 // listItems - the array of filter items
@@ -510,4 +510,4 @@ function transformRequest(url) {
   return {
     url: isMapboxRequest ? url.replace('?', '?pluginName=finder&') : url,
   };
-});
+}
