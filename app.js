@@ -31,7 +31,7 @@ function createPopup(currentFeature) {
   if (popups[0]) popups[0].remove();
   new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
-    .setHTML('<h3>' + currentFeature.properties[config.popupInfo[0]] + '</h3>' + '<a href="' + currentFeature.properties[config.popupInfo[1]] + '">Website Link</a>')
+    .setHTML('<h3>' + currentFeature.properties[config.popupInfo[0]] + '</h3>' + '<a href="' + currentFeature.properties[config.popupInfo1[0]] + '">Website Link</a>')
     .addTo(map);
 }
 
