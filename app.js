@@ -35,7 +35,7 @@ function createPopup(currentFeature) {
     .addTo(map);
 }
 
-/*function buildLocationList(locationData) {
+function buildLocationList(locationData) {
   /* Add a new listing section to the sidebar. */
   const listings = document.getElementById('listings');
   listings.innerHTML = '';
