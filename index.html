@@ -23,16 +23,24 @@
 </head>
     
 <body>
-<div id='menu'>
-    <fieldset>
-    <legend>Laughlin Homes by Variance Type:</legend>
-    <input id='Bed' type='radio' name='rtoggle' value='Bedroom' >
-    <label for='Bed'>bedrooms</label>
-    <input id='Bath' type='radio' name='rtoggle' value='Bathroom' >
-    <label for='Bath'>bathrooms</label>
-    <input id='Sq_Ft' type='radio' name='rtoggle' value='Sq_Feet' checked='checked'>
-    <label for='Sq_Ft'>square feet</label>
-    </fieldset>
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>Project Categories</h3>
+
+    <input type="checkbox" id="srBox" name="srBox" value="SustainableRecreation">
+    <label for="srBox"> Sustainable Recreation</label><br>
+
+    <input type="checkbox" id="hlBox" name="hlBox" value="HealthyLandscapes">
+    <label for="hlBox"> Healthy Landscapes</label><br>
+
+    <input type="checkbox" id="ovBox" name="ovBox" value="Overnight">
+    <label for="ovBox"> Overnight</label><br>
+
+  </div>
+
 </div>
     <div class='flex-parent viewport-full relative scroll-hidden'>
         <div class='flex-child w-full w360-ml absolute static-ml left bottom'>
