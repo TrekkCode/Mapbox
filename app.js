@@ -34,7 +34,7 @@ function createPopup(currentFeature) {
     .setHTML('<h3>' + currentFeature.properties[config.popupInfo[0]] + '</h3>' + '<a href="' + currentFeature.properties[config.popupInfo1[0]] + '" target="_blank" rel="noopener noreferrer">Website Link</a>')
     .addTo(map);
 }
-
+{
 function buildLocationList(locationData) {
   /* Add a new listing section to the sidebar. */
   const listings = document.getElementById('listings');
