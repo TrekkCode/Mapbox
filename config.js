@@ -13,6 +13,7 @@ const config = {
     'Click "Show Filters" to filter by Program. Click "Reset Filter" to show all locations.',
   sideBarInfo: ['Name','Website'],
   popupInfo: ['Name'],
+  popupInfo1: ['Website],
   filters: [
     {
       type: 'checkbox',
