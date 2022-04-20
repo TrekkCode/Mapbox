@@ -217,7 +217,7 @@ function createFilterObject(filterSettings) {
   });
 }
 
-function applyFilters() {
+/*function applyFilters() {
   const filterForm = document.getElementById('filters');
 
   filterForm.addEventListener('change', function () {
@@ -358,7 +358,7 @@ function removeFiltersButton() {
   removeFilter.addEventListener('click', () => {
     removeFilters();
   });
-}
+}*/
 
 createFilterObject(config.filters);
 applyFilters();
