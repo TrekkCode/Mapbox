@@ -359,12 +359,12 @@ function removeFiltersButton() {
     removeFilters();
   });
 }*/
-
+/*
 createFilterObject(config.filters);
 applyFilters();
 filters(config.filters);
 removeFiltersButton();
-
+*/
 const geocoder = new MapboxGeocoder({
   accessToken: mapboxgl.accessToken, // Set the access token
   mapboxgl: mapboxgl, // Set the mapbox-gl instance
