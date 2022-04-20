@@ -498,10 +498,10 @@ exitButton.addEventListener('click', () => {
   modal.classList.add('hide-visually');
 });*/
 
-const title = document.getElementById('title');
+/*const title = document.getElementById('title');
 title.innerText = config.title;
 const description = document.getElementById('description');
-description.innerText = config.description;
+description.innerText = config.description;*/
 
 function transformRequest(url) {
   const isMapboxRequest =
