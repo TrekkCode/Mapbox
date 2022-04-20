@@ -23,24 +23,27 @@
 </head>
     
 <body>
-<div id="myModal" class="modal">
+<div id='modal'
+            class='absolute top right bottom left scroll-auto hide-visually flex-parent flex-parent--center-main mt120-ml'>
+            <div class='pt36'>
+                <div class='flex-child bg-white round relative scroll-auto'>
+                    <button id='exitButton' class='absolute top right px12 py12'>
+                        <svg class='icon link color-darken50'>
+                            <use xlink:href='#icon-close'></use>
+                        </svg>
+                    </button>
+                    <div class='px24 py24'>
+                        <form id="filters"></form>
+                        <div class='align-center py12'></div>
+                        <div class="flex-parent flex-parent--center-main">
+                            <button id="removeFilters" class="btn">Reset Filters</button>
+                        </div>
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h3>Project Categories</h3>
+                    </div>
 
-    <input type="checkbox" id="srBox" name="srBox" value="SustainableRecreation">
-    <label for="srBox"> Sustainable Recreation</label><br>
-
-    <input type="checkbox" id="hlBox" name="hlBox" value="HealthyLandscapes">
-    <label for="hlBox"> Healthy Landscapes</label><br>
-
-    <input type="checkbox" id="ovBox" name="ovBox" value="Overnight">
-    <label for="ovBox"> Overnight</label><br>
-
-  </div>
-
+                </div>
+            </div>
+        </div>
 </div>
     <!--<div class='flex-parent viewport-full relative scroll-hidden'>
         <div class='flex-child w-full w360-ml absolute static-ml left bottom'>
