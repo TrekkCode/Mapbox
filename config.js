@@ -7,7 +7,7 @@ const config = {
     'pk.eyJ1IjoiYWZhcm9yZyIsImEiOiJjbDIwajV3YTUwMGc3M2xwNDdiYWJiMjUzIn0.Pjt9AndPk1Axv99wez-5TA',
   CSV: 'https://docs.google.com/spreadsheets/d/1umfhXq5WEPLEABV81-tZUayAw7WZrmqe/gviz/tq?tqx=out:csv&sheet=Sheet1',
   center: [-100.8603, 38.2700],
-  zoom: 4,
+  zoom: 3,
   title: 'Centers for Interactive Map',
   description:
     'Click "Show Filters" to filter by Program. Click "Reset Filter" to show all locations.',
